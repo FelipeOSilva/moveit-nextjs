@@ -6,7 +6,7 @@ import {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChallengesProvider value={{}}>
+    <ChallengesProvider>
       <Component {...pageProps} />
     </ChallengesProvider>
   );
